@@ -2,13 +2,21 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <!--<link href="${basePath}/static/img/title-logo.png" rel="shortcut icon" />-->
+    <link href="${basePath}/static/img/title-logo.png" rel="shortcut icon"/>
     <title>
         <sitemesh:write property='title'/>
     </title>
+    <!-- import css -->
+    <link rel="stylesheet" href="${basePath}/static/lib/common/base/css/base.css">
+
+    <!-- defind global constant -->
     <script type="text/javascript">
         var basePath = '${basePath}';
     </script>
+
+    <!-- import js -->
+    <script type="text/javascript" src="${basePath}/static/lib/plugins/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="${basePath}/static/lib/common/base/js/base.js"></script>
     <sitemesh:write property='head'/>
 </head>
 <body>
