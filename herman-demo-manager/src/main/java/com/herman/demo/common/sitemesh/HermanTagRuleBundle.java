@@ -6,7 +6,10 @@ import org.sitemesh.content.tagrules.TagRuleBundle;
 import org.sitemesh.content.tagrules.html.ExportTagToContentRule;
 import org.sitemesh.tagprocessor.State;
 
-public class ExtendHtmlTag4Sitemesh implements TagRuleBundle {
+/**
+ * sitemesh自定义tag规则
+ */
+public class HermanTagRuleBundle implements TagRuleBundle {
 
 
 	@Override

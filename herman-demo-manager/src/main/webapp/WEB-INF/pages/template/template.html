@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><sitemesh:write property='title' /> - herman</title>
     <meta charset="UTF-8">
     <!--<link href="${basePath}/static/img/title-logo.png" rel="shortcut icon" />-->
+    <title>
+        <sitemesh:write property='title'/>
+    </title>
     <script type="text/javascript">
         var basePath = '${basePath}';
     </script>
-    <sitemesh:write property='head' />
+    <sitemesh:write property='head'/>
 </head>
 <body>
-<sitemesh:write property='body' />
+<sitemesh:write property='body'/>
+<div>
+    <hr>
+    Copyright © 2017 herman 版权所有
+</div>
 </body>
 </html>
